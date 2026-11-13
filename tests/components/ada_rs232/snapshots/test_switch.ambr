@@ -1,5 +1,5 @@
 # serializer version: 1
-# name: test_entities[switch.ada_ptm_1645_zone_1-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_1-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -13,7 +13,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_1',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_1',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -36,20 +36,20 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_1-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_1-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 1',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 1',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_1',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_1',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'off',
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_2-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_2-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -63,7 +63,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_2',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_2',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -86,20 +86,20 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_2-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_2-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 2',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 2',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_2',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_2',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'off',
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_3-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_3-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -113,7 +113,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_3',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_3',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -136,20 +136,20 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_3-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_3-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 3',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 3',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_3',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_3',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'off',
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_4-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_4-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -163,7 +163,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_4',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_4',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -186,20 +186,20 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_4-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_4-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 4',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 4',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_4',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_4',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'off',
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_5-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_5-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -213,7 +213,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_5',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_5',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -236,20 +236,20 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_5-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_5-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 5',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 5',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_5',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_5',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'off',
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_6-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_6-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -263,7 +263,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_6',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_6',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -286,20 +286,20 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_6-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_6-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 6',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 6',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_6',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_6',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'off',
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_7-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_7-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -313,7 +313,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_7',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_7',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -336,20 +336,20 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_7-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_7-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 7',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 7',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_7',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_7',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,
     'state': 'off',
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_8-entry]
+# name: test_entities[switch.ada_ptm_1645_1_zone_8-entry]
   EntityRegistryEntrySnapshot({
     'aliases': list([
       None,
@@ -363,7 +363,7 @@
     'disabled_by': None,
     'domain': 'switch',
     'entity_category': None,
-    'entity_id': 'switch.ada_ptm_1645_zone_8',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_8',
     'has_entity_name': True,
     'hidden_by': None,
     'icon': None,
@@ -386,13 +386,13 @@
     'unit_of_measurement': None,
   })
 # ---
-# name: test_entities[switch.ada_ptm_1645_zone_8-state]
+# name: test_entities[switch.ada_ptm_1645_1_zone_8-state]
   StateSnapshot({
     'attributes': ReadOnlyDict({
-      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 8',
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 (1) Zone 8',
     }),
     'context': <ANY>,
-    'entity_id': 'switch.ada_ptm_1645_zone_8',
+    'entity_id': 'switch.ada_ptm_1645_1_zone_8',
     'last_changed': <ANY>,
     'last_reported': <ANY>,
     'last_updated': <ANY>,

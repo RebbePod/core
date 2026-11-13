@@ -5,7 +5,9 @@ rules:
   appropriate-polling: done
   brands:
     status: done
-    comment: Assets are prepared in the companion brands change.
+    comment:
+      Assets are prepared in the companion brands change at https://github.com/RebbePod/brands/tree/add-ada-rs232/core_integrations/ada_rs232.
+      Availability is contingent on that change merging before Core.
   common-modules: done
   config-flow: done
   config-flow-test-coverage: done
@@ -29,27 +31,27 @@ rules:
   test-before-configure: done
   test-before-setup: done
   unique-config-entry: done
-  action-exceptions: done
-  config-entry-unloading: done
-  docs-configuration-parameters: done
-  docs-installation-parameters: done
-  entity-unavailable: done
-  integration-owner: done
-  log-when-unavailable: done
-  parallel-updates: done
+  action-exceptions: todo
+  config-entry-unloading: todo
+  docs-configuration-parameters: todo
+  docs-installation-parameters: todo
+  entity-unavailable: todo
+  integration-owner: todo
+  log-when-unavailable: todo
+  parallel-updates: todo
   reauthentication-flow:
     status: exempt
     comment: The amplifier does not authenticate clients.
-  test-coverage: done
-  devices: done
+  test-coverage: todo
+  devices: todo
   diagnostics: todo
   discovery: todo
   discovery-update-info: todo
-  docs-data-update: done
+  docs-data-update: todo
   docs-examples: todo
-  docs-known-limitations: done
-  docs-supported-devices: done
-  docs-supported-functions: done
+  docs-known-limitations: todo
+  docs-supported-devices: todo
+  docs-supported-functions: todo
   docs-troubleshooting: todo
   docs-use-cases: todo
   dynamic-devices:
@@ -64,9 +66,9 @@ rules:
   entity-disabled-by-default:
     status: exempt
     comment: All eight zone controls are primary entities.
-  entity-translations: done
-  exception-translations: done
-  icon-translations: done
+  entity-translations: todo
+  exception-translations: todo
+  icon-translations: todo
   reconfiguration-flow: todo
   repair-issues:
     status: exempt
@@ -74,8 +76,8 @@ rules:
   stale-devices:
     status: exempt
     comment: No dynamic devices can become stale.
-  async-dependency: done
+  async-dependency: todo
   inject-websession:
     status: exempt
     comment: The library uses serial connections, not HTTP.
-  strict-typing: done
+  strict-typing: todo

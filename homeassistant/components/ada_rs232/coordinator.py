@@ -7,10 +7,12 @@ from typing import override
 from ada_rs232 import AdaClient, AdaError, ZoneState
 
 from homeassistant.config_entries import ConfigEntry
+from homeassistant.const import CONF_DEVICE
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.exceptions import HomeAssistantError
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, UpdateFailed
 
+from .connection import async_release_connection
 from .const import DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
@@ -32,6 +34,9 @@ class AdaCoordinator(DataUpdateCoordinator[ZoneState]):
             always_update=False,
         )
         self.client = client
+        self._port = entry.data[CONF_DEVICE]
+        self._entry_id = entry.entry_id
+        self._closed = False
         self._unsubscribe = client.subscribe(self._handle_state)
 
     @callback
@@ -74,9 +79,13 @@ class AdaCoordinator(DataUpdateCoordinator[ZoneState]):
     @override
     async def async_shutdown(self) -> None:
         """Release the subscription and serial connection."""
+        if self._closed:
+            return
+        self._closed = True
         self._unsubscribe()
         await super().async_shutdown()
         await self.client.async_close()
+        await async_release_connection(self.hass, self._port, self._entry_id)
 
 
 type AdaConfigEntry = ConfigEntry[AdaCoordinator]

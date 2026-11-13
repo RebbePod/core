@@ -8,16 +8,23 @@
       "unknown": "[%key:common::config_flow::error::unknown%]"
     },
     "step": {
+      "amplifier": {
+        "data": {
+          "address": "Amplifier"
+        },
+        "data_description": {
+          "address": "The existing PAC address reported by the amplifier. Selecting it does not change its hardware settings."
+        },
+        "description": "Select an available amplifier from the addresses found on this connection."
+      },
       "user": {
         "data": {
-          "address": "Amplifier address",
           "device": "[%key:common::config_flow::data::port%]"
         },
         "data_description": {
-          "address": "The amplifier's existing PAC address, from 1 to 9",
           "device": "Serial port connected to the PTM-1645 amplifier"
         },
-        "description": "Connect to an ADA PTM-1645 amplifier using its default one-to-one trigger mapping."
+        "description": "Connect to an ADA PTM-1645 amplifier using its default one-to-one trigger mapping. The integration reads existing amplifier addresses without changing hardware settings."
       }
     }
   },

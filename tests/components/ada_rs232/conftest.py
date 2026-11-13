@@ -20,12 +20,11 @@ def mock_usb_component(hass: HomeAssistant) -> None:
 
 
 @pytest.fixture
-def mock_client() -> Generator[MagicMock]:
+def mock_client(mock_bus: MagicMock) -> Generator[MagicMock]:
     """Mock the external library, keeping Home Assistant setup real."""
-    with (
-        patch("homeassistant.components.ada_rs232.AdaClient", autospec=True) as factory,
-        patch("homeassistant.components.ada_rs232.config_flow.AdaClient", factory),
-    ):
+    with patch(
+        "homeassistant.components.ada_rs232.AdaClient", autospec=True
+    ) as factory:
         client = factory.return_value
         client.async_get_state.return_value = (False,) * 8
         client.async_set_zone.return_value = (True,) + (False,) * 7
@@ -39,7 +38,7 @@ def mock_config_entry(hass: HomeAssistant) -> MockConfigEntry:
     entry = MockConfigEntry(
         domain=DOMAIN,
         entry_id="01KPBBPM6WCQ8148EFR0TCG1WW",
-        title="ADA PTM-1645",
+        title=f"ADA PTM-1645 ({MOCK_ADDRESS})",
         data={CONF_DEVICE: MOCK_PORT, CONF_ADDRESS: MOCK_ADDRESS},
     )
     entry.add_to_hass(hass)
@@ -49,7 +48,9 @@ def mock_config_entry(hass: HomeAssistant) -> MockConfigEntry:
 @pytest.fixture
 def mock_setup_entry(mock_client: MagicMock) -> Generator[AsyncMock]:
     """Keep flow tests from also setting up the entry."""
-    with patch("homeassistant.components.ada_rs232.async_setup_entry") as setup:
+    with patch(
+        "homeassistant.components.ada_rs232.async_setup_entry", return_value=None
+    ) as setup:
         yield setup
 
 
@@ -60,3 +61,17 @@ async def init_integration(
     """Set up the integration through Home Assistant."""
     assert await hass.config_entries.async_setup(mock_config_entry.entry_id)
     await hass.async_block_till_done()
+
+
+@pytest.fixture
+def mock_bus() -> Generator[MagicMock]:
+    """Mock the serial library boundary while keeping shared ownership real."""
+    with patch(
+        "homeassistant.components.ada_rs232.connection.AdaBus", autospec=True
+    ) as factory:
+        bus = factory.return_value
+        bus.port = MOCK_PORT
+        bus.async_get_states.return_value = {MOCK_ADDRESS: (False,) * 8}
+        bus.async_get_state.return_value = (False,) * 8
+        bus.subscribe.return_value = MagicMock()
+        yield bus

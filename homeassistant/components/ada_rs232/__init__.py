@@ -5,6 +5,7 @@ from ada_rs232 import AdaClient
 from homeassistant.const import CONF_DEVICE, EVENT_HOMEASSISTANT_STOP, Platform
 from homeassistant.core import Event, HomeAssistant
 
+from .connection import acquire_connection
 from .const import CONF_ADDRESS
 from .coordinator import AdaConfigEntry, AdaCoordinator
 
@@ -13,7 +14,9 @@ PLATFORMS = [Platform.SWITCH]
 
 async def async_setup_entry(hass: HomeAssistant, entry: AdaConfigEntry) -> None:
     """Set up ADA RS-232 from a config entry."""
-    client = AdaClient(entry.data[CONF_DEVICE], address=entry.data[CONF_ADDRESS])
+    port = entry.data[CONF_DEVICE]
+    bus = acquire_connection(hass, port, entry.entry_id)
+    client = AdaClient(port, address=entry.data[CONF_ADDRESS], bus=bus)
     coordinator = AdaCoordinator(hass, entry, client)
     await coordinator.async_config_entry_first_refresh()
     entry.runtime_data = coordinator

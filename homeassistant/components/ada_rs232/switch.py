@@ -8,7 +8,7 @@ from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
-from .const import DOMAIN
+from .const import CONF_ADDRESS, DOMAIN
 from .coordinator import AdaConfigEntry, AdaCoordinator
 
 PARALLEL_UPDATES = 0
@@ -39,7 +39,7 @@ class AdaZoneSwitch(CoordinatorEntity[AdaCoordinator], SwitchEntity):
             identifiers={(DOMAIN, entry.entry_id)},
             manufacturer="Audio Design Associates",
             model="PTM-1645",
-            name="ADA PTM-1645",
+            name=f"ADA PTM-1645 ({entry.data[CONF_ADDRESS]})",
         )
 
     @property
