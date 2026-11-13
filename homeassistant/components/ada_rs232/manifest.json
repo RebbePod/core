@@ -1,0 +1,15 @@
+{
+  "domain": "ada_rs232",
+  "name": "ADA RS-232",
+  "categories": ["media_entertainment.speakers_audio"],
+  "codeowners": ["@RebbePod"],
+  "config_flow": true,
+  "connectivity": ["serial"],
+  "dependencies": ["usb"],
+  "documentation": "https://www.home-assistant.io/integrations/ada_rs232",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "loggers": ["ada_rs232"],
+  "quality_scale": "bronze",
+  "requirements": ["ada-rs232==0.1.0"]
+}

@@ -109,6 +109,18 @@
       "config_flow": true,
       "iot_class": "cloud_push"
     },
+    "ada_rs232": {
+      "name": "ADA RS-232",
+      "integration_type": "hub",
+      "categories": [
+        "media_entertainment.speakers_audio"
+      ],
+      "connectivity": [
+        "serial"
+      ],
+      "config_flow": true,
+      "iot_class": "local_polling"
+    },
     "adax": {
       "name": "Adax",
       "integration_type": "hub",

@@ -58,6 +58,8 @@ AGENTS.md @home-assistant/core
 /tests/components/acmeda/ @atmurray
 /homeassistant/components/actron_air/ @kclif9 @JagadishDhanamjayam
 /tests/components/actron_air/ @kclif9 @JagadishDhanamjayam
+/homeassistant/components/ada_rs232/ @RebbePod
+/tests/components/ada_rs232/ @RebbePod
 /homeassistant/components/adax/ @danielhiversen @lazytarget
 /tests/components/adax/ @danielhiversen @lazytarget
 /homeassistant/components/adguard/ @frenck

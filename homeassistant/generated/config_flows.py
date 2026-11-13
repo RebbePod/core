@@ -32,6 +32,7 @@ FLOWS = {
         "accuweather",
         "acmeda",
         "actron_air",
+        "ada_rs232",
         "adax",
         "adguard",
         "advantage_air",

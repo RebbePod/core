@@ -47,6 +47,7 @@ homeassistant.components.accuweather.*
 homeassistant.components.acmeda.*
 homeassistant.components.actiontec.*
 homeassistant.components.actron_air.*
+homeassistant.components.ada_rs232.*
 homeassistant.components.adax.*
 homeassistant.components.adguard.*
 homeassistant.components.aerosmart.*

@@ -1,0 +1,39 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    },
+    "step": {
+      "user": {
+        "data": {
+          "address": "Amplifier address",
+          "device": "[%key:common::config_flow::data::port%]"
+        },
+        "data_description": {
+          "address": "The amplifier's existing PAC address, from 1 to 9",
+          "device": "Serial port connected to the PTM-1645 amplifier"
+        },
+        "description": "Connect to an ADA PTM-1645 amplifier using its default one-to-one trigger mapping."
+      }
+    }
+  },
+  "entity": {
+    "switch": {
+      "zone": {
+        "name": "Zone {zone}"
+      }
+    }
+  },
+  "exceptions": {
+    "cannot_connect": {
+      "message": "Unable to communicate with the ADA amplifier"
+    },
+    "command_failed": {
+      "message": "The ADA amplifier did not confirm the command. Check the serial connection and try again."
+    }
+  }
+}

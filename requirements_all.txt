@@ -129,6 +129,9 @@ accuweather==5.1.0
 # homeassistant.components.actron_air
 actron-neo-api==0.5.16
 
+# homeassistant.components.ada_rs232
+ada-rs232==0.1.0
+
 # homeassistant.components.adax
 adax==0.4.0
 

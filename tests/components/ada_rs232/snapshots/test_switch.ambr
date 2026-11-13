@@ -1,0 +1,401 @@
+# serializer version: 1
+# name: test_entities[switch.ada_ptm_1645_zone_1-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_1',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 1',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 1',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_1',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_1-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 1',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_1',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_2-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_2',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 2',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 2',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_2',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_2-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 2',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_2',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_3-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_3',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 3',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 3',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_3',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_3-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 3',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_3',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_4-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_4',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 4',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 4',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_4',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_4-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 4',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_4',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_5-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_5',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 5',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 5',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_5',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_5-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 5',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_5',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_6-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_6',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 6',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 6',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_6',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_6-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 6',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_6',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_7-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_7',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 7',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 7',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_7',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_7-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 7',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_7',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_8-entry]
+  EntityRegistryEntrySnapshot({
+    'aliases': list([
+      None,
+    ]),
+    'area_id': None,
+    'capabilities': None,
+    'config_entry_id': <ANY>,
+    'config_subentry_id': None,
+    'device_class': None,
+    'device_id': <DeviceEntry identifiers=[('ada_rs232', '01KPBBPM6WCQ8148EFR0TCG1WW')]>,
+    'disabled_by': None,
+    'domain': 'switch',
+    'entity_category': None,
+    'entity_id': 'switch.ada_ptm_1645_zone_8',
+    'has_entity_name': True,
+    'hidden_by': None,
+    'icon': None,
+    'id': <ANY>,
+    'labels': set({
+    }),
+    'name': None,
+    'object_id_base': 'Zone 8',
+    'options': dict({
+    }),
+    'original_device_class': None,
+    'original_icon': None,
+    'original_name': 'Zone 8',
+    'platform': 'ada_rs232',
+    'previous_unique_id': None,
+    'suggested_object_id': None,
+    'supported_features': 0,
+    'translation_key': 'zone',
+    'unique_id': '01KPBBPM6WCQ8148EFR0TCG1WW_zone_8',
+    'unit_of_measurement': None,
+  })
+# ---
+# name: test_entities[switch.ada_ptm_1645_zone_8-state]
+  StateSnapshot({
+    'attributes': ReadOnlyDict({
+      <EntityStateAttribute.FRIENDLY_NAME: 'friendly_name'>: 'ADA PTM-1645 Zone 8',
+    }),
+    'context': <ANY>,
+    'entity_id': 'switch.ada_ptm_1645_zone_8',
+    'last_changed': <ANY>,
+    'last_reported': <ANY>,
+    'last_updated': <ANY>,
+    'state': 'off',
+  })
+# ---
